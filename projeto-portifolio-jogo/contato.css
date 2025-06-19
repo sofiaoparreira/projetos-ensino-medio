@@ -1,0 +1,124 @@
+body {
+    background-image: url(img/wallpaper-rosa.jpg);
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #476F45;
+}
+.navbar-brand {
+    color: #F2FFF5;
+    font-weight: 800;
+}
+.nav-link {
+    color: #F2FFF5;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.custom-link:hover,
+.custom-link:focus {
+    color: #E2A9C0;
+}
+
+/* Seção de Contato */
+.contato-section {
+    background-color: #FFE8F3;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 3px solid #A24C61;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.contato-section h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #411528;
+    margin-bottom: 30px;
+}
+.form-contato {
+    display: flex;
+    flex-direction: column;
+}
+.form-contato label {
+    margin-top: 15px;
+    color: #411528;
+    font-weight: bold;
+}
+.form-contato input,
+.form-contato textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #A24C61;
+    resize: none;
+}
+.form-contato button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #476F45;
+    color: #F2FFF5;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-contato button:hover {
+    background-color: #F2FFF5;
+    color: #476F45;
+}
+
+/* Footer */
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: #476F45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F2FFF5;
+}
+
+@media (max-width: 768px) {
+    .contato-section {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+.custom-navbar {
+    background-color: #476F45;
+}
+.navbar-brand {
+    color: #F2FFF5 !important;
+    font-weight: 800;
+}
+.nav-link {
+    color: #F2FFF5 !important;
+    font-weight: bold !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.custom-link:hover,
+.custom-link:focus {
+    color: #E2A9C0 !important;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #A24C61;
+        padding: 15px;
+    }
+
+    .nav-link {
+        padding: 10px 0;
+        display: block;
+        color: #E1C9D5;
+    }
+}
