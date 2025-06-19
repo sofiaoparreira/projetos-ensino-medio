@@ -1,0 +1,52 @@
+main{
+    justify-items: center;
+    justify-content: center;
+}
+
+body{
+    background-image: url(img/wallpaper1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo-main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    font-style: italic;
+}
+    .subtitulo-main{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: antiquewhite;
+    }
+    .texto{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: antiquewhite;
+    }
+
+    .conteudo{
+        background-color: rgb(37, 23, 23);
+        width: auto;
+        max-height: max-content;
+        padding: 15px;
+        border-radius: 2%;
+        border-style: groove;
+        border-color: brown;
+    }
+
+    .navbar bg-body-tertiary{
+        background-color: #af2331;
+    }
+
+    footer{
+        background-color: rgb(37, 23, 23);
+        color: rgb(173, 165, 153);
+        height: max-content;
+        padding: 2px;
+    }
+
+
+
